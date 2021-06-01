@@ -1,0 +1,93 @@
+body {
+  font-family: "Acme", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: url(gym7.jpg);
+  color: white;
+}
+.left {
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid red;*/
+}
+.left img {
+  width: 120px;
+  filter: invert(25%);
+}
+.logo {
+  text-align: center;
+  line-height: 19px;
+  font-size: 26px;
+}
+.center {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  /* border: 2px solid red;*/
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 33px;
+  /*  border: 2px solid red; */
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+.btn {
+  font-family: "Acme", sans-serif;
+  margin: 0px 12px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: gray;
+}
+.container {
+  border: 2px solid white;
+  margin: 93px 92px;
+  padding: 75px;
+  width: 40%;
+  border-radius: 22px;
+}
+.formgroup input {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
